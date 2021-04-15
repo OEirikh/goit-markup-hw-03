@@ -14,6 +14,23 @@
   --main-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
 }
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 body {
   font-family: var(--main-font);
@@ -22,6 +39,19 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-col);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .link {
@@ -36,6 +66,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .visually-hidden {
@@ -55,7 +87,19 @@ body {
   background-color: var(--bg-head);
 }
 
+.flex .container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
 .logo {
+  display: inline-block;
+  margin-right: 93px;
+}
+
+.logo-text {
   font-family: var(--title-font);
   font-weight: 700;
   font-size: 26px;
@@ -82,9 +126,21 @@ body {
 }
 
 .contacts {
+  margin-left: auto;
+}
+
+.contacts-text {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.menu {
+  display: inline-flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* hero */
