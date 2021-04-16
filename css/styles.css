@@ -8,6 +8,7 @@
   --sub-title-col: #212121;
   --acent-col: #2196f3;
   --portfolio-border: #eeeeee;
+  --header-border: #ececec;
 
   --bg-head: #ffffff;
   --bg-hero: #2f303a;
@@ -51,8 +52,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .section {
@@ -92,11 +92,11 @@ body {
 /* Cap */
 
 .header {
-  border-bottom: 1px solid #ececec;
-  background-color: var(--bg-head);
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid var(--header-border);
+  background-color: var(--bg-head);
 }
 
 .header .container {
@@ -158,12 +158,10 @@ body {
 /* hero */
 
 .hero {
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: var(--bg-hero);
-  width: 1600px;
 }
 
 .main-title {
@@ -196,7 +194,11 @@ body {
 /* Features */
 
 .features {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
+  background-color: var(--bg-head);
 }
 
 .features .list {
@@ -223,6 +225,11 @@ body {
 }
 
 /* What are we doing */
+
+.direction {
+  max-width: 1600px;
+  background-color: var(--bg-head);
+}
 
 .direction .list {
   display: flex;
@@ -251,7 +258,7 @@ body {
 
 .team {
   background-color: var(--bg-team);
-  width: 1600px;
+  max-width: 1600px;
 }
 
 .team .list {
@@ -291,10 +298,10 @@ body {
 /* Footer */
 
 .footer {
-  background-color: var(--bg-foot);
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--bg-foot);
 }
 
 .address-block {
@@ -321,6 +328,13 @@ body {
 }
 
 /* Portfolio */
+
+.portfolio {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--bg-head);
+}
 
 .portfolio .list {
   display: flex;
@@ -356,6 +370,7 @@ body {
   margin-left: -30px;
   margin-top: -30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .portfolio-image {
