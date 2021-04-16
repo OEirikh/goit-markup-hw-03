@@ -33,6 +33,9 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+img {
+  display: block;
+}
 
 body {
   font-family: var(--main-font);
@@ -54,6 +57,8 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .link {
@@ -155,8 +160,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--bg-hero);
-  max-width: 1600px;
-  height: 600px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -239,15 +243,14 @@ body {
   line-height: 1.17;
   color: var(--sub-title-col);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /* Our team */
 
 .team {
   background-color: var(--bg-team);
-}
-.team .section-title {
-  margin-bottom: 50px;
+  width: 1600px;
 }
 
 .team .list {
@@ -256,13 +259,22 @@ body {
 
 .team-item {
   flex-basis: calc((100% - 4 * 30px) / 4);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:nth-child(4n + 1)) {
   margin-left: 30px;
 }
+.taem-content {
+  background-color: var(--bg-head);
+  padding: 30px;
+}
 
 .team-title {
+  display: block;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
