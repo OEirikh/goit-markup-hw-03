@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -93,7 +93,7 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
   background-color: var(--bg-head);
-  max-width: 1600px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -105,7 +105,7 @@ body {
   height: 80px;
 }
 
-.logo {
+.header .logo {
   display: inline-block;
   margin-right: 93px;
 }
@@ -159,13 +159,14 @@ body {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--bg-hero);
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--bg-hero);
+  width: 1600px;
 }
 
 .main-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -173,7 +174,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-col);
-  margin-bottom: 30px;
 }
 
 .btn {
@@ -273,7 +273,6 @@ body {
 }
 
 .team-title {
-  display: block;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -292,14 +291,28 @@ body {
 
 .footer {
   background-color: var(--bg-foot);
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.address-block {
+  width: calc(100% / 12 * 3);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
   font-style: inherit;
+  margin-top: 20px;
 }
 
 .address-title {
   color: var(--main-title-col);
+}
+
+.footer-item {
+  margin-top: 9px;
 }
 
 .contacts-foot {
