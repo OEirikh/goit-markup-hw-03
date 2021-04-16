@@ -7,6 +7,7 @@
   --main-title-col: #ffffff;
   --sub-title-col: #212121;
   --acent-col: #2196f3;
+  --portfolio-border: #eeeeee;
 
   --bg-head: #ffffff;
   --bg-hero: #2f303a;
@@ -321,20 +322,56 @@ body {
 
 /* Portfolio */
 
+.portfolio .list {
+  display: flex;
+}
+
+.filter {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .btn-filter {
+  padding: 6px 22px;
+  margin-right: 8px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: var(--sub-title-col);
+  background: var(--bg-team);
+  border: none;
+  border-radius: 4px;
 }
 
 .btn-filter:hover,
 .btn-filter:focus {
   background: var(--acent-col);
   color: var(--main-title-col);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-item {
+  margin-left: -30px;
+  margin-top: -30px;
+  flex-wrap: wrap;
+}
+
+.portfolio-image {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.portfolio-content {
+  padding: 24px 20px;
+  border-left: 1px solid var(--portfolio-border);
+  border-right: 1px solid var(--portfolio-border);
+  border-bottom: 1px solid var(--portfolio-border);
 }
 
 .example-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;

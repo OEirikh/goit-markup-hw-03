@@ -53,119 +53,143 @@
     </header>
     <main>
       <!--Portfolio-->
-      <section>
-        <h1 class="visually-hidden">Портфолио</h1>
-        <ul class="list">
-          <li><button class="btn-filter" type="button">Все</button></li>
-          <li>
-            <button class="btn-filter" type="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button class="btn-filter" type="button">Приложения</button>
-          </li>
-          <li><button class="btn-filter" type="button">Дизайн</button></li>
-          <li>
-            <button class="btn-filter" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/portfolio/img-1.jpg"
-              width="370"
-              height="294"
-              alt="Макбук"
-            />
-            <h2 class="example-title">Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-2.jpg"
-              width="370"
-              height="294"
-              alt="Игра в баскетбол"
-            />
-            <h2 class="example-title">
-              Постер <span lang="en"> New Orlean vs Golden Star</span>
-            </h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-3.jpg"
-              width="370"
-              height="294"
-              alt="Логотип ресторана"
-            />
-            <h2 class="example-title">
-              Ресторан <span lang="en">Seafood</span>
-            </h2>
-            <p>Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-4.jpg"
-              width="370"
-              height="294"
-              alt="Наушники"
-            />
-            <h2 class="example-title">Проект <span lang="en">Prime</span></h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-5.jpg"
-              width="370"
-              height="294"
-              alt="Коробки"
-            />
-            <h2 class="example-title">Проект <span lang="en">Boxes</span></h2>
-            <p>Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-6.jpg"
-              width="370"
-              height="294"
-              alt="Монитор"
-            />
-            <h2 class="example-title">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-7.jpg"
-              width="370"
-              height="294"
-              alt="Журнал"
-            />
-            <h2 class="example-title">
-              Издание <span lang="en">Limited Edition</span>
-            </h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-8.jpg"
-              width="370"
-              height="294"
-              alt="Лейба"
-            />
-            <h2 class="example-title">Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/img-9.jpg"
-              width="370"
-              height="294"
-              alt="Работа на ноутбуке"
-            />
-            <h2 class="example-title" lang="en">Growing Business</h2>
-            <p>Приложение</p>
-          </li>
-        </ul>
+      <section class="portfolio section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="list filter">
+            <li><button class="btn-filter" type="button">Все</button></li>
+            <li>
+              <button class="btn-filter" type="button">Веб-сайты</button>
+            </li>
+            <li>
+              <button class="btn-filter" type="button">Приложения</button>
+            </li>
+            <li><button class="btn-filter" type="button">Дизайн</button></li>
+            <li>
+              <button class="btn-filter" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list portfolio-item">
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-1.jpg"
+                width="370"
+                height="294"
+                alt="Макбук"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-2.jpg"
+                width="370"
+                height="294"
+                alt="Игра в баскетбол"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">
+                  Постер <span lang="en"> New Orlean vs Golden Star</span>
+                </h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-3.jpg"
+                width="370"
+                height="294"
+                alt="Логотип ресторана"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">
+                  Ресторан <span lang="en">Seafood</span>
+                </h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-4.jpg"
+                width="370"
+                height="294"
+                alt="Наушники"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">
+                  Проект <span lang="en">Prime</span>
+                </h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-5.jpg"
+                width="370"
+                height="294"
+                alt="Коробки"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">
+                  Проект <span lang="en">Boxes</span>
+                </h2>
+                <p>Приложение</p>
+              </div class="portfolio-content">
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-6.jpg"
+                width="370"
+                height="294"
+                alt="Монитор"
+              />
+              <div>
+                <h2 class="example-title">Inspiration has no Borders</h2>
+                <p>Веб-сайт</p>
+              </div class="portfolio-content">
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-7.jpg"
+                width="370"
+                height="294"
+                alt="Журнал"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">
+                  Издание <span lang="en">Limited Edition</span>
+                </h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-8.jpg"
+                width="370"
+                height="294"
+                alt="Лейба"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title">Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="portfolio-image">
+              <img
+                src="./images/portfolio/img-9.jpg"
+                width="370"
+                height="294"
+                alt="Работа на ноутбуке"
+              />
+              <div class="portfolio-content">
+                <h2 class="example-title" lang="en">Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Footer-->
