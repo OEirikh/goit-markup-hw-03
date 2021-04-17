@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Cap-->
+    <!--Header-->
     <header class="header">
-      <div class="container">
+      <div class="container header-main">
         <p class="logo" lang="en">
           <span class="logo-text blue">Web</span
           ><span class="logo-text black">Studio</span>
@@ -57,15 +57,19 @@
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="list filter">
-            <li><button class="btn-filter" type="button">Все</button></li>
-            <li>
+            <li class="filtr-item">
+              <button class="btn-filter" type="button">Все</button>
+            </li>
+            <li class="filtr-item">
               <button class="btn-filter" type="button">Веб-сайты</button>
             </li>
-            <li>
+            <li class="filtr-item">
               <button class="btn-filter" type="button">Приложения</button>
             </li>
-            <li><button class="btn-filter" type="button">Дизайн</button></li>
-            <li>
+            <li class="filtr-item">
+              <button class="btn-filter" type="button">Дизайн</button>
+            </li>
+            <li class="filtr-item">
               <button class="btn-filter" type="button">Маркетинг</button>
             </li>
           </ul>
@@ -79,7 +83,7 @@
               />
               <div class="portfolio-content">
                 <h2 class="example-title">Технокряк</h2>
-                <p>Веб-сайт</p>
+                <p class="example-text">Веб-сайт</p>
               </div>
             </li>
             <li class="portfolio-image">
@@ -93,7 +97,7 @@
                 <h2 class="example-title">
                   Постер <span lang="en"> New Orlean vs Golden Star</span>
                 </h2>
-                <p>Дизайн</p>
+                <p class="example-text">Дизайн</p>
               </div>
             </li>
             <li class="portfolio-image">
@@ -107,7 +111,7 @@
                 <h2 class="example-title">
                   Ресторан <span lang="en">Seafood</span>
                 </h2>
-                <p>Приложение</p>
+                <p class="example-text">Приложение</p>
               </div>
             </li>
             <li class="portfolio-image">
@@ -121,7 +125,7 @@
                 <h2 class="example-title">
                   Проект <span lang="en">Prime</span>
                 </h2>
-                <p>Маркетинг</p>
+                <p class="example-text">Маркетинг</p>
               </div>
             </li>
             <li class="portfolio-image">
@@ -135,8 +139,8 @@
                 <h2 class="example-title">
                   Проект <span lang="en">Boxes</span>
                 </h2>
-                <p>Приложение</p>
-              </div class="portfolio-content">
+                <p class="example-text">Приложение</p>
+              </div>
             </li>
             <li class="portfolio-image">
               <img
@@ -145,10 +149,10 @@
                 height="294"
                 alt="Монитор"
               />
-              <div>
+              <div class="portfolio-content">
                 <h2 class="example-title">Inspiration has no Borders</h2>
-                <p>Веб-сайт</p>
-              </div class="portfolio-content">
+                <p class="example-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="portfolio-image">
               <img
@@ -161,7 +165,7 @@
                 <h2 class="example-title">
                   Издание <span lang="en">Limited Edition</span>
                 </h2>
-                <p>Дизайн</p>
+                <p class="example-text">Дизайн</p>
               </div>
             </li>
             <li class="portfolio-image">
@@ -173,7 +177,7 @@
               />
               <div class="portfolio-content">
                 <h2 class="example-title">Проект LAB</h2>
-                <p>Маркетинг</p>
+                <p class="example-text">Маркетинг</p>
               </div>
             </li>
             <li class="portfolio-image">
@@ -185,7 +189,7 @@
               />
               <div class="portfolio-content">
                 <h2 class="example-title" lang="en">Growing Business</h2>
-                <p>Приложение</p>
+                <p class="example-text">Приложение</p>
               </div>
             </li>
           </ul>
@@ -197,8 +201,7 @@
       <div class="container">
         <div class="address-block">
           <p class="logo" lang="en">
-            <span class="logo-text blue">Web</span
-            ><span class="logo-text white">Studio</span>
+            <span class="blue">Web</span><span class="white">Studio</span>
           </p>
           <address class="address">
             <ul class="list">
