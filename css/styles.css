@@ -89,8 +89,6 @@ body {
 /* Header */
 
 .header {
-  width: 1600px;
-  margin: 0px auto;
   border-bottom: 1px solid var(--header-border);
   background-color: var(--bg-head);
 }
@@ -129,7 +127,7 @@ body {
   color: var(--alt-logo-studio-col);
 }
 
-.nav {
+.nav-text {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -165,15 +163,10 @@ body {
 /* hero */
 
 .hero {
-  width: 1600px;
-  margin: 0px auto;
-  text-align: center;
-  background-color: var(--bg-hero);
-}
-
-.hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
+  background-color: var(--bg-hero);
 }
 
 .main-title {
@@ -231,6 +224,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--sub-title-col);
+}
+.main-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* What are we doing */
@@ -310,13 +308,13 @@ body {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-foot);
 }
 
 .address-block {
   width: calc(100% / 12 * 3);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address {
@@ -339,8 +337,6 @@ body {
 /* Portfolio */
 
 .portfolio {
-  width: 1600px;
-  margin: 0px auto;
   background-color: var(--bg-head);
 }
 
