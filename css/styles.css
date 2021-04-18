@@ -53,7 +53,8 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.list .current {
   color: var(--acent-col);
 }
 
